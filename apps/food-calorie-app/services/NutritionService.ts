@@ -329,3 +329,62 @@ export const getMealTypeByMealIdForToday = async (mealId: string) => {
 
   return data;
 };
+export const fetchFoodHistoryForToday = async (userId: string) => {
+  try {
+    const now = new Date();
+
+    // Start of today in the user's local timezone
+    const startOfDay = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate(),
+      0,
+      0,
+      0,
+      0
+    );
+
+    // Start of tomorrow
+    const startOfTomorrow = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate() + 1,
+      0,
+      0,
+      0,
+      0
+    );
+
+    const { data, error } = await supabase
+      .from("food_history")
+      .select(
+        "id, user_id, food_name, calories, protein, carbohydrates, fat, image_url, created_at"
+      )
+      .eq("user_id", userId)
+      .gte("created_at", startOfDay.toISOString())
+      .lt("created_at", startOfTomorrow.toISOString())
+      .order("created_at", { ascending: false });
+
+    if (error) {
+      console.error("Error fetching food history:", error);
+      return {
+        data: null,
+        error,
+      };
+    }
+
+    return {
+      data: data ?? [],
+      error: null,
+    };
+  } catch (err: any) {
+    console.error("Unexpected error fetching food history:", err);
+
+    return {
+      data: null,
+      error: {
+        message: err?.message || "Failed to fetch food history",
+      },
+    };
+  }
+};

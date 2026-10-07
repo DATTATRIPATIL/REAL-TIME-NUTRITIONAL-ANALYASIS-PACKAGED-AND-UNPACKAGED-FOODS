@@ -1,6 +1,6 @@
-const API_URL = process.env.GROQ_API_URL;
-const API_KEY = process.env.GROQ_API_KEY;
-const MODEL = process.env.GROQ_MODEL; // Groq model (e.g., llama-3.1-70b-versatile)
+const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_API_KEY = process.env.EXPO_PUBLIC_GROQ_API_KEY;
+const MODEL = 'openai/gpt-oss-20b'; // Groq model (e.g., llama-3.1-70b-versatile)
 
 export interface ChatMessage {
   role: 'user' | 'assistant';

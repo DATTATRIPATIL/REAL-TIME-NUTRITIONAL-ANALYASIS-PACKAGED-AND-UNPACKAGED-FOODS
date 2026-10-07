@@ -1,0 +1,560 @@
+[
+  {
+    "food_name": "Apple",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 52,
+    "protein": 0.3,
+    "carbohydrates": 13.8,
+    "fat": 0.2,
+    "fiber": 2.4,
+    "sugars": 10.4,
+    "sodium": 1,
+    "aliases": [
+      "apple",
+      "granny smith",
+      "green apple",
+      "red delicious"
+    ]
+  },
+  {
+    "food_name": "Banana",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 89,
+    "protein": 1.1,
+    "carbohydrates": 22.8,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugars": 12.2,
+    "sodium": 1,
+    "aliases": [
+      "banana",
+      "banana fruit"
+    ]
+  },
+  {
+    "food_name": "Mango",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 60,
+    "protein": 0.8,
+    "carbohydrates": 15.0,
+    "fat": 0.4,
+    "fiber": 1.6,
+    "sugars": 13.7,
+    "sodium": 1,
+    "aliases": [
+      "mango",
+      "mangoes"
+    ]
+  },
+  {
+    "food_name": "Orange",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 47,
+    "protein": 0.9,
+    "carbohydrates": 11.8,
+    "fat": 0.1,
+    "fiber": 2.4,
+    "sugars": 9.4,
+    "sodium": 0,
+    "aliases": [
+      "orange",
+      "oranges"
+    ]
+  },
+  {
+    "food_name": "Grapes",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 69,
+    "protein": 0.7,
+    "carbohydrates": 18.1,
+    "fat": 0.2,
+    "fiber": 0.9,
+    "sugars": 15.5,
+    "sodium": 2,
+    "aliases": [
+      "grapes",
+      "grape"
+    ]
+  },
+  {
+    "food_name": "Watermelon",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 30,
+    "protein": 0.6,
+    "carbohydrates": 7.6,
+    "fat": 0.2,
+    "fiber": 0.4,
+    "sugars": 6.2,
+    "sodium": 1,
+    "aliases": [
+      "watermelon"
+    ]
+  },
+  {
+    "food_name": "Papaya",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 43,
+    "protein": 0.5,
+    "carbohydrates": 10.8,
+    "fat": 0.3,
+    "fiber": 1.7,
+    "sugars": 7.8,
+    "sodium": 8,
+    "aliases": [
+      "papaya"
+    ]
+  },
+  {
+    "food_name": "Pineapple",
+    "category": "fruit",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 50,
+    "protein": 0.5,
+    "carbohydrates": 13.1,
+    "fat": 0.1,
+    "fiber": 1.4,
+    "sugars": 9.9,
+    "sodium": 1,
+    "aliases": [
+      "pineapple"
+    ]
+  },
+  {
+    "food_name": "Rice",
+    "category": "grain",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 130,
+    "protein": 2.7,
+    "carbohydrates": 28.2,
+    "fat": 0.3,
+    "fiber": 0.4,
+    "sugars": 0.1,
+    "sodium": 1,
+    "aliases": [
+      "rice",
+      "white rice",
+      "cooked rice",
+      "steamed rice",
+      "basmati rice"
+    ]
+  },
+  {
+    "food_name": "Roti",
+    "category": "grain",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 297,
+    "protein": 11.0,
+    "carbohydrates": 55.0,
+    "fat": 4.0,
+    "fiber": 11.0,
+    "sugars": 2.0,
+    "sodium": 400,
+    "aliases": [
+      "roti",
+      "chapati",
+      "chapathi",
+      "rotti",
+      "indian flatbread"
+    ]
+  },
+  {
+    "food_name": "Naan",
+    "category": "grain",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 310,
+    "protein": 9.0,
+    "carbohydrates": 50.0,
+    "fat": 8.0,
+    "fiber": 2.5,
+    "sugars": 3.0,
+    "sodium": 500,
+    "aliases": [
+      "naan",
+      "nan"
+    ]
+  },
+  {
+    "food_name": "Dal",
+    "category": "legume",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 116,
+    "protein": 9.0,
+    "carbohydrates": 20.0,
+    "fat": 0.4,
+    "fiber": 7.9,
+    "sugars": 1.8,
+    "sodium": 2,
+    "aliases": [
+      "dal",
+      "daal",
+      "lentils",
+      "lentil curry"
+    ]
+  },
+  {
+    "food_name": "Sambar",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 75,
+    "protein": 3.5,
+    "carbohydrates": 10.0,
+    "fat": 2.0,
+    "fiber": 3.0,
+    "sugars": 3.0,
+    "sodium": 350,
+    "aliases": [
+      "sambar",
+      "sambhar"
+    ]
+  },
+  {
+    "food_name": "Idli",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 146,
+    "protein": 5.0,
+    "carbohydrates": 28.0,
+    "fat": 1.0,
+    "fiber": 2.0,
+    "sugars": 1.0,
+    "sodium": 230,
+    "aliases": [
+      "idli",
+      "idly"
+    ]
+  },
+  {
+    "food_name": "Dosa",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 168,
+    "protein": 4.0,
+    "carbohydrates": 30.0,
+    "fat": 3.5,
+    "fiber": 1.5,
+    "sugars": 1.0,
+    "sodium": 300,
+    "aliases": [
+      "dosa",
+      "dosai"
+    ]
+  },
+  {
+    "food_name": "Vada",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 290,
+    "protein": 7.0,
+    "carbohydrates": 32.0,
+    "fat": 15.0,
+    "fiber": 4.0,
+    "sugars": 2.0,
+    "sodium": 450,
+    "aliases": [
+      "vada",
+      "medu vada",
+      "vadai"
+    ]
+  },
+  {
+    "food_name": "Poha",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 180,
+    "protein": 3.5,
+    "carbohydrates": 30.0,
+    "fat": 5.0,
+    "fiber": 2.5,
+    "sugars": 2.0,
+    "sodium": 350,
+    "aliases": [
+      "poha",
+      "pohe",
+      "flattened rice"
+    ]
+  },
+  {
+    "food_name": "Upma",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 150,
+    "protein": 4.0,
+    "carbohydrates": 25.0,
+    "fat": 4.0,
+    "fiber": 2.0,
+    "sugars": 2.0,
+    "sodium": 300,
+    "aliases": [
+      "upma",
+      "uppuma"
+    ]
+  },
+  {
+    "food_name": "Biryani",
+    "category": "dish",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 180,
+    "protein": 7.0,
+    "carbohydrates": 25.0,
+    "fat": 6.0,
+    "fiber": 1.5,
+    "sugars": 2.0,
+    "sodium": 500,
+    "aliases": [
+      "biryani",
+      "biriyani"
+    ]
+  },
+  {
+    "food_name": "Chicken",
+    "category": "meat",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 165,
+    "protein": 31.0,
+    "carbohydrates": 0.0,
+    "fat": 3.6,
+    "fiber": 0.0,
+    "sugars": 0.0,
+    "sodium": 74,
+    "aliases": [
+      "chicken",
+      "chicken breast",
+      "fried chicken",
+      "roasted chicken",
+      "chicken meat"
+    ]
+  },
+  {
+    "food_name": "Fish",
+    "category": "meat",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 140,
+    "protein": 24.0,
+    "carbohydrates": 0.0,
+    "fat": 5.0,
+    "fiber": 0.0,
+    "sugars": 0.0,
+    "sodium": 60,
+    "aliases": [
+      "fish",
+      "fish fillet"
+    ]
+  },
+  {
+    "food_name": "Egg",
+    "category": "protein",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 155,
+    "protein": 13.0,
+    "carbohydrates": 1.1,
+    "fat": 11.0,
+    "fiber": 0.0,
+    "sugars": 1.1,
+    "sodium": 124,
+    "aliases": [
+      "egg",
+      "boiled egg",
+      "fried egg",
+      "egg whole"
+    ]
+  },
+  {
+    "food_name": "Paneer",
+    "category": "dairy",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 265,
+    "protein": 18.3,
+    "carbohydrates": 6.1,
+    "fat": 20.8,
+    "fiber": 0.0,
+    "sugars": 3.9,
+    "sodium": 22,
+    "aliases": [
+      "paneer",
+      "paneer cheese",
+      "cottage cheese indian"
+    ]
+  },
+  {
+    "food_name": "Milk",
+    "category": "dairy",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 61,
+    "protein": 3.2,
+    "carbohydrates": 4.8,
+    "fat": 3.3,
+    "fiber": 0.0,
+    "sugars": 5.1,
+    "sodium": 43,
+    "aliases": [
+      "milk"
+    ]
+  },
+  {
+    "food_name": "Yogurt",
+    "category": "dairy",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 61,
+    "protein": 3.5,
+    "carbohydrates": 4.7,
+    "fat": 3.3,
+    "fiber": 0.0,
+    "sugars": 4.7,
+    "sodium": 46,
+    "aliases": [
+      "yogurt",
+      "curd",
+      "dahi",
+      "plain yogurt"
+    ]
+  },
+  {
+    "food_name": "Cheese",
+    "category": "dairy",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 402,
+    "protein": 25.0,
+    "carbohydrates": 1.3,
+    "fat": 33.0,
+    "fiber": 0.0,
+    "sugars": 0.5,
+    "sodium": 621,
+    "aliases": [
+      "cheese"
+    ]
+  },
+  {
+    "food_name": "Potato",
+    "category": "vegetable",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 77,
+    "protein": 2.0,
+    "carbohydrates": 17.5,
+    "fat": 0.1,
+    "fiber": 2.2,
+    "sugars": 0.8,
+    "sodium": 6,
+    "aliases": [
+      "potato",
+      "potatoes"
+    ]
+  },
+  {
+    "food_name": "Tomato",
+    "category": "vegetable",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 18,
+    "protein": 0.9,
+    "carbohydrates": 3.9,
+    "fat": 0.2,
+    "fiber": 1.2,
+    "sugars": 2.6,
+    "sodium": 5,
+    "aliases": [
+      "tomato",
+      "tomatoes"
+    ]
+  },
+  {
+    "food_name": "Carrot",
+    "category": "vegetable",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 41,
+    "protein": 0.9,
+    "carbohydrates": 9.6,
+    "fat": 0.2,
+    "fiber": 2.8,
+    "sugars": 4.7,
+    "sodium": 69,
+    "aliases": [
+      "carrot",
+      "carrots"
+    ]
+  },
+  {
+    "food_name": "Cucumber",
+    "category": "vegetable",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 15,
+    "protein": 0.7,
+    "carbohydrates": 3.6,
+    "fat": 0.1,
+    "fiber": 0.5,
+    "sugars": 1.7,
+    "sodium": 2,
+    "aliases": [
+      "cucumber",
+      "cucumbers"
+    ]
+  },
+  {
+    "food_name": "Spinach",
+    "category": "vegetable",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 23,
+    "protein": 2.9,
+    "carbohydrates": 3.6,
+    "fat": 0.4,
+    "fiber": 2.2,
+    "sugars": 0.4,
+    "sodium": 79,
+    "aliases": [
+      "spinach",
+      "palak"
+    ]
+  },
+  {
+    "food_name": "Broccoli",
+    "category": "vegetable",
+    "type": "unpackaged",
+    "serving_size_g": 100,
+    "calories": 34,
+    "protein": 2.8,
+    "carbohydrates": 6.6,
+    "fat": 0.4,
+    "fiber": 2.6,
+    "sugars": 1.7,
+    "sodium": 33,
+    "aliases": [
+      "broccoli"
+    ]
+  }
+]

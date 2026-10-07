@@ -161,7 +161,7 @@ export const NutritionResults: React.FC<NutritionResultsProps> = ({
       const sugars = item.sugars * multiplier;
       const sodium = item.sodium * multiplier;
       
-      const phone = getCurrentUserPhone();
+      const phone = await getCurrentUserPhone();
       if (!phone) {
         Alert.alert("Error", "Please login first to add food items.");
         setIsButtonDisabled((prev) => {

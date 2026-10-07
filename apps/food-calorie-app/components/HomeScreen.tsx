@@ -227,7 +227,7 @@ export default function HomeScreen() {
 
   const fetchFoodData = useCallback(async () => {
     try {
-      const phone = getCurrentUserPhone();
+      const phone = await getCurrentUserPhone();
       if (!phone) {
         console.log("No user phone found, skipping fetch");
         setFoodData([]);
@@ -244,7 +244,7 @@ export default function HomeScreen() {
 
   const fetchUserName = useCallback(async () => {
     try {
-      const phone = getCurrentUserPhone();
+      const phone = await getCurrentUserPhone();
       if (phone) {
         const result = await getUserNameByPhone(phone);
         if (result?.data) {
@@ -710,3 +710,7 @@ const styles = StyleSheet.create({
     borderRadius: 43,
   },
 });
+
+
+
+

@@ -36,3 +36,10 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+.env
+.env.*
+!.env.example
+
+node_modules/
+.expo/

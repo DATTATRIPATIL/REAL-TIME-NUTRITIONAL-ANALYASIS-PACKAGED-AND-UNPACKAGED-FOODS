@@ -114,7 +114,7 @@ export const insertUserDetails = async (
       // Update existing record
       const { data, error } = await supabase
         .from("user_details")
-        .update({ age, weight, height, gender })
+        .update({ phone: phone.replace(/\D/g, ""), age, weight, height, gender })
         .eq("user_id", userId.data.id)
         .select()
         .single();
@@ -128,7 +128,7 @@ export const insertUserDetails = async (
       // Insert new record
       const { data, error } = await supabase
         .from("user_details")
-        .insert({ user_id: userId.data.id, age, weight, height, gender })
+        .insert({ user_id: userId.data.id, phone: phone.replace(/\D/g, ""), age, weight, height, gender })
         .select()
         .single();
 
@@ -180,3 +180,5 @@ export const getUserNameByPhone = async (phone: string) => {
     };
   }
 };
+
+

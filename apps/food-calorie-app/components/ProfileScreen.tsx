@@ -53,7 +53,7 @@ export default function ProfileScreen() {
   const loadUserDetails = async () => {
     try {
       setLoading(true);
-      const phone = getCurrentUserPhone();
+      const phone = await getCurrentUserPhone();
       if (phone) {
         const details = await getUserDetailsByPhone(phone);
         if (details?.data) {
@@ -93,7 +93,7 @@ export default function ProfileScreen() {
     try {
       setSaving(true);
       setError("");
-      const phone = getCurrentUserPhone();
+      const phone = await getCurrentUserPhone();
       if (!phone) {
         setError("Please login first");
         return;
